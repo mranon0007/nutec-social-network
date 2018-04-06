@@ -160,6 +160,11 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /**
+         * Custom
+         */
+        Reliese\Coders\CodersServiceProvider::class, //for reliese/laravel
+
     ],
 
     /*
